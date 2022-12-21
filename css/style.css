@@ -1,0 +1,28 @@
+.box{
+    width: 200px;
+    height: 200px;
+    /* background-color: aqua; */
+    /* margin: 50px 50px; */
+    display: inline-block;
+}
+.box1{
+    background-color: aqua;
+}
+.box2{
+    background-color: rgb(169, 185, 47);
+}
+
+.box3{
+    background-color: rgb(203, 114, 13);
+
+}
+
+.wrapper{
+    height: 100vh;
+    width:80%;
+    background-color:rgb(15, 172, 172);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
