@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&family=Unbounded:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+.cover{
+    width: calc(100% - 64px);
+    height: calc(100vh - 64px);
+    margin: 32px auto 0 auto;
+    background-color: #818ABA;
+    padding: 39px 68px;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.logo{
+    width: 98px;
+    height: 35px;
+}
+nav{
+    min-width: 480px;
+}
+ul.main-navigation{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.main-navigation li a{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Unbounded', cursive;
+    text-transform: capitalize;
+}
+
+.header-btn{
+    background-color: #fff;
+    color: #524FD5;
+}
+
+.cover-content-wrapper{
+    margin-top:39px;
+}
+
+.cover-btn{
+    background-color: #524FD5;
+    color: #fff;
+    display: inline-block;
+
+}
+
+.button{
+    
+    font-family: 'Heebo', sans-serif;
+    font-size: 14px;
+    padding: 20px 32px;
+    border-radius: 73px;
+}
+
+h1{
+    font-size: 56px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 126%;
+    margin-bottom: 18px;
+
+
+}
+
+.higlight-color{
+    color: #524FD5
+}
+
+p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    list-style: 190%;
+    margin-bottom:32px;
+}
