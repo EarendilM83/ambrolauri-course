@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&family=Unbounded:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
 
 .cover{
     width: calc(100% - 64px);
@@ -75,9 +75,117 @@ h1{
     color: #524FD5
 }
 
-p{
+.cover-p{
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
     list-style: 190%;
     margin-bottom:32px;
 }
+
+
+/* cover character box */
+.cover-content-wrapper{
+    margin-top:39px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cover-section-2{
+    position: relative; 
+
+}
+.back-box, .front-box{
+    width: 536px;
+    height: 536px;
+    border-radius: 60px;
+    background-color: #FFD6B0;
+
+}
+
+.back-box{
+    opacity: 0.3; 
+    transform:rotate(-4.37deg);
+    position:absolute;
+    
+}
+.front-box{
+    transform: rotate(10deg);
+    overflow: hidden;
+    position: relative;
+    
+}
+.main-character{
+    width: 580px;
+    transform: rotate(-10deg);
+    margin-top: 44px;
+}
+
+.cover-mini-boxes{
+    position: absolute;
+    z-index: 10;
+    background-color: #fff;
+    display: flex;
+    padding: 12px 20px;
+    border-radius: 19px;
+}
+.cover-mini-boxes .image-wrapper{
+    border-radius: 50%;
+    /* background-color: red; */
+    width: 50px;
+    height: 50px;
+    border: 3px solid #E8E8F6;
+    background-image: url(../images/F1.png);
+}
+.cover-mini-boxes .image-wrapper img{
+    border-radius: 50%;
+}
+
+.text-wrapper{
+    margin-left: 17px;
+}
+
+.cover-mini-boxes .text-wrapper h3{
+    font-size: 14px;
+    line-height: 28px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+.cover-mini-boxes .text-wrapper p{
+    font-family: "oswald";
+    font-size:12px;
+    line-height: 14px;
+    color: #666680;
+}
+
+.box1{
+    left: -109px;
+    top: 41px
+}
+.box2{
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.box2 h3{
+    color:#524FD5;
+    font-size: 18px;
+    font-family: "oswald";
+    font-weight: 700;
+    margin-bottom: 20px;
+
+
+}
+
+.box2{
+margin-bottom: 20px;
+}
+.box3{
+    bottom: 0;
+}
+
